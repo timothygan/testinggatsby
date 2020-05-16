@@ -31,29 +31,12 @@ module.exports = {
       resolve: "gatsby-source-wordpress",
       options: {
 
-        baseUrl: "live-gatbsyjswp.pantheonsite.io",
+        baseUrl: "timgan263413807.wordpress.com",
         // The protocol. This can be http or https.
         protocol: "https",
 
-        restApiRoutePrefix: "wp-json",
-        // Indicates whether the site is hosted on wordpress.com.
-        // If false, then the assumption is made that the site is self hosted.
-        // If true, then the plugin will source its content on wordpress.com using the JSON REST API V2.
-        // If your site is hosted on wordpress.org, then set this to false.
         hostingWPCOM: true,
-        // If useACF is true, then the source plugin will try to import the WordPress ACF Plugin contents.
-        // This feature is untested for sites hosted on wordpress.com.
-        // Defaults to true.
-        useACF: true,
-        // Include specific ACF Option Pages that have a set post ID
-        // Regardless if an ID is set, the default options route will still be retrieved
-        // Must be using V3 of ACF to REST to include these routes
-        // Example: `["option_page_1", "option_page_2"]` will include the proper ACF option
-        // routes with the ID option_page_1 and option_page_2
-        // The IDs provided to this array should correspond to the `post_id` value when defining your
-        // options page using the provided `acf_add_options_page` method, in your WordPress setup
-        // Dashes in IDs will be converted to underscores for use in GraphQL
-        acfOptionPageIds: [],
+
         auth: {
 
 
@@ -82,8 +65,8 @@ module.exports = {
           "**/taxonomies",
           "**/users",
         ],
-        // Blacklisted routes using glob patterns
-        excludedRoutes: ["**/posts/1456"],
+        excludedRoutes: ["**/block-renderer"],
+       
 
       },
     },

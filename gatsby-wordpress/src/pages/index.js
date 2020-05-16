@@ -9,10 +9,12 @@ export default ({ data }) => {
       <SEO title="home" />
       <h4>Posts</h4>
       {data.allWordpressPost.edges.map(({ node }) => (
+        node.categories[0].name === 'swe' ?
         <div>
-          <p>{node.title}</p>
+          <p>{node.id}</p>
           <div dangerouslySetInnerHTML={{ __html: node.excerpt }} />
         </div>
+        : <div>uwu</div>
       ))}
     </Layout>
   )
@@ -24,6 +26,10 @@ export const pageQuery = graphql`
         node {
           title
           excerpt
+          id
+          categories {
+            name
+          }
         }
       }
     }

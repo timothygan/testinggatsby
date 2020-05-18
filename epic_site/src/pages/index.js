@@ -1,7 +1,7 @@
-import React, { Component } from "react"
+import React, { Component, Fragment } from 'react';
 
 
-class LandingPage extends Component{
+class Home extends Component{
     constructor(props){
         super(props);
 
@@ -9,11 +9,12 @@ class LandingPage extends Component{
 
     render(){
         return(
-            <div>
+            <Fragment>
                 hihiuwuwuwuwuwuwuwuwuuwuwuwuwuwuwuwuwuwuwuwuwuwuwu
-            </div>
+            </Fragment>
         )
     }
 }
 
-export default LandingPage;
+export default Home;
+

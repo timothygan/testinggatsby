@@ -1,3 +1,7 @@
+require("dotenv").config({
+  path: `.env.${process.env.NODE_ENV}`,
+})
+
 module.exports = {
   siteMetadata: {
     title: `Gatsby Default Starter`,
@@ -27,6 +31,7 @@ module.exports = {
         icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
       },
     },
+    
     {
       resolve: "gatsby-source-wordpress",
       options: {
@@ -46,10 +51,10 @@ module.exports = {
           // Learn about environment variables: https://www.gatsbyjs.org/docs/environment-variables
           // If two-factor authentication is enabled then you need to create an Application-Specific Password,
           // see https://en.support.wordpress.com/security/two-step-authentication/#application-specific-passwords
-          wpcom_app_clientSecret: "5TnfajmbUkB3WGtNQZcfyd5OgTYebYB64in59Mo8oe8X1EibpDiMq4YRVWW2X6iz",
+          wpcom_app_clientSecret: process.env.GATSBY_SECRET,
           wpcom_app_clientId: "68987",
           wpcom_user: "timothygan@utexas.edu",
-          wpcom_pass: "prodigious3201",
+          wpcom_pass: process.env.GATSBY_PASSWORD,
       },
 
         // Set verboseOutput to true to display a verbose output on `npm run develop` or `npm run build`

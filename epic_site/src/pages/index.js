@@ -1,4 +1,5 @@
 import React, { Component, Fragment } from 'react';
+import Header from '../components/header';
 
 
 class Home extends Component{
@@ -10,7 +11,8 @@ class Home extends Component{
     render(){
         return(
             <Fragment>
-                hihiuwuwuwuwuwuwuwuwuuwuwuwuwuwuwuwuwuwuwuwuwuwuwu
+                <Header></Header>
+
             </Fragment>
         )
     }

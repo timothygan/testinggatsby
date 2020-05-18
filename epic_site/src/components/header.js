@@ -1,42 +1,25 @@
-import { Link } from "gatsby"
-import PropTypes from "prop-types"
-import React from "react"
+import React, { Component, Fragment } from "react"
+import logo from './../images/logo.png'
+import './../styles/header.css'
 
-const Header = ({ siteTitle }) => (
-  <header
-    style={{
-      background: `rebeccapurple`,
-      marginBottom: `1.45rem`,
-    }}
-  >
-    <div
-      style={{
-        margin: `0 auto`,
-        maxWidth: 960,
-        padding: `1.45rem 1.0875rem`,
-      }}
-    >
-      <h1 style={{ margin: 0 }}>
-        <Link
-          to="/"
-          style={{
-            color: `white`,
-            textDecoration: `none`,
-          }}
-        >
-          {siteTitle}
-        </Link>
-      </h1>
-    </div>
-  </header>
-)
+class Header extends Component{
+    constructor(props){
+        super(props);
+    }
 
-Header.propTypes = {
-  siteTitle: PropTypes.string,
+    render(){
+        return(
+            <Fragment>
+                <header className="Banner">
+                    <img src = {logo} width="142" height="72" alt="epic movement logo"></img>
+                    <div className="HeaderTitle">
+                        EPIC MOVEMENT
+                    </div>
+
+                </header>
+                
+            </Fragment>
+        );
+    }
 }
-
-Header.defaultProps = {
-  siteTitle: ``,
-}
-
 export default Header

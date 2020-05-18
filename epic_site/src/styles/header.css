@@ -1,0 +1,29 @@
+.HeaderTitle{
+    color: #555555;
+    margin-left: 2.5%;
+    margin-top: 1.5%;
+    font-family: "Libre Franklin";
+    font-weight: 700;
+    font-size: 24pt;
+
+}
+
+.Banner {
+    box-sizing: border-box;
+    width: 100%;
+    height: 72px;
+    display: flex;
+    justify-content: left;
+    background-color:white;
+
+  }
+
+/*
+color pallete?
+
+Blue in epic photo: 0289ba
+Gray in epic photo: 555555
+white lol: ffffff
+light cyan: cdedf3
+middle blue: 84ccdb
+*/

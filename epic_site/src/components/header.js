@@ -1,5 +1,5 @@
 import React, { Component, Fragment } from "react"
-import { withRouter } from 'react-router-dom';
+import { Link } from 'gatsby'
 import logo from './../images/logo.png'
 import './../styles/header.css'
 
@@ -12,10 +12,12 @@ class Header extends Component{
         return(
             <Fragment>
                 <header className="Banner">
-                    <img src = {logo} alt="epic movement logo" onClick={() => this.props.history.push('/')}></img>
-                    <div className="Header-Title" onClick={() => this.props.history.push('/')}>
-                        UT EPIC MOVEMENT
-                    </div>
+                    <Link to={'/'}><img src = {logo} alt="epic movement logo"></img></Link>
+                    <Link to={'/'} className={"Header-Title-Link"}>
+                        <div className="Header-Title">
+                            UT EPIC MOVEMENT
+                        </div>
+                    </Link>
 
                     <button type="button" className="Menu-Button">
                         i am a useless button

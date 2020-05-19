@@ -1,7 +1,9 @@
 import React, { Component, Fragment } from 'react';
 import Header from '../components/header';
 import Footer from '../components/footer';
-import Home from './home';
+import HomeSectionOne from "../components/home-section-one";
+import HomeSectionTwo from "../components/home-section-two";
+import HomeSectionThree from "../components/home-section-three";
 
 class App extends Component{
     constructor(props){
@@ -12,7 +14,9 @@ class App extends Component{
         return(
             <Fragment>
                 <Header/>
-                <Home/>
+                <HomeSectionOne/>
+                <HomeSectionTwo/>
+                <HomeSectionThree/>
                 <Footer/>
             </Fragment>
         )

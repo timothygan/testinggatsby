@@ -7,6 +7,10 @@
     cursor: pointer;
 }
 
+.Header-Title-Link {
+    text-decoration: none;
+}
+
 .Banner {
     box-sizing: border-box;
     width: 100%;
@@ -14,11 +18,9 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: left;
+    justify-content: center;
     background-color: white;
     border: 1px black;
-    margin-left: 5%;
-    margin-right: 5%;
 }
 
 .Banner img {
@@ -31,8 +33,6 @@
     background-color: #cdedf3; /* Green */
     border: 1px;
     height: 30px;
-    margin-left: auto;
-    margin-right: 10%;
     transition-duration: .3s;
     cursor: pointer;
 }

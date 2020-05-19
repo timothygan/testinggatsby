@@ -13,9 +13,15 @@ class HomeSectionTwo extends Component{
     render(){
         return(
             <Fragment>
-              <div className="Section-Two">
+                <div className="Section-Two">
+                    <div className="Mission-Banner">
 
-              </div>
+                        Movements everywhere so everyone knows someone who truly follows Christ
+     
+                        
+                    </div>
+                    movements everywhere baby
+                </div>
                 
             </Fragment>
         );

@@ -14,7 +14,7 @@ class ImageCarousel extends Component{
         return(
             <Fragment>
                 <div className="Carousel">
-
+                pictures
                 </div>
                 
             </Fragment>

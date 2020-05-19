@@ -1,16 +1,38 @@
+/*
+.css for section-one, section-two, and section-three of home
+*/
+
 .Carousel-Container{
-    height: 85vh;
+    height: 70vh;
     width: 100vw;
+}
+
+.Mission-Banner {
+    box-sizing: border-box;
+    width: 100%;
+    height: 100px;
+    background-color: white;
+    border: 1px black; 
+    color: #555555;
+    font-family: "Libre Franklin";
+    font-weight: 700;
+    font-size: 32pt;
+    padding-top: 10px;
+    line-height: 32pt;
 }
 
 .Section-Two{
     height: 85vh;
     width: 100vw;
     background-color: olive;
+    text-align: center;
+
 }
 
 .Section-Three{
     height: 85vh;
     width: 100vw;
     background-color: skyblue;
+    text-align: center;
+
 }

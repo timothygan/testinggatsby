@@ -15,7 +15,9 @@ class HomeSectionOne extends Component{
         return(
             <Fragment>
                 <div className="Carousel-Container">
-                    <ImageCarousel></ImageCarousel>
+                    <ImageCarousel>
+                        
+                    </ImageCarousel>
                 </div>
                 
             </Fragment>

@@ -5,7 +5,6 @@
     font-family: "Libre Franklin";
     font-weight: 700;
     font-size: 24pt;
-
 }
 
 .Banner {
@@ -23,7 +22,6 @@
 .Menu-Button{
     background-color: #cdedf3; /* Green */
     border: 1px;
-    width: 30px;
     height: 30px;
     margin-left: 50%;
     margin-top: 1.5%;

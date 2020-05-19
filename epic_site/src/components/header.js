@@ -16,8 +16,8 @@ class Header extends Component{
                         EPIC MOVEMENT
                     </div>
 
-                    <button className="Menu-Button">
-
+                    <button type="button" className="Menu-Button">
+                        i am a useless button
                     </button>
 
                 </header>

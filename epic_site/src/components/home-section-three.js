@@ -13,7 +13,9 @@ class HomeSectionThree extends Component{
     render(){
         return(
             <Fragment>
-                <div className="Section-Three"></div>
+                <div className="Section-Three">
+                    join my sg
+                </div>
                 
             </Fragment>
         );

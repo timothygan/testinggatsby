@@ -3,26 +3,28 @@
 */
 
 .Carousel-Container{
-    height: 70vh;
+    height: 80vh;
     width: 100vw;
 }
 
 .Mission-Banner {
     box-sizing: border-box;
     width: 100%;
-    height: 100px;
+    height: 30vh;
     background-color: white;
-    border: 1px black; 
+    border: 1px black;
     color: #555555;
     font-family: "Libre Franklin";
     font-weight: 700;
-    font-size: 32pt;
-    padding-top: 10px;
+    font-size: 3vw;
+    display: table-cell;
+    vertical-align: middle;
+    padding: 10px;
     line-height: 32pt;
 }
 
 .Section-Two{
-    height: 85vh;
+    height: 100vh;
     width: 100vw;
     background-color: olive;
     text-align: center;
@@ -30,7 +32,7 @@
 }
 
 .Section-Three{
-    height: 85vh;
+    height: 100vh;
     width: 100vw;
     background-color: skyblue;
     text-align: center;

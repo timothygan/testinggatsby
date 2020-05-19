@@ -1,4 +1,5 @@
 import React, { Component, Fragment } from "react"
+import { withRouter } from 'react-router-dom';
 import logo from './../images/logo.png'
 import './../styles/header.css'
 
@@ -11,9 +12,9 @@ class Header extends Component{
         return(
             <Fragment>
                 <header className="Banner">
-                    <img src = {logo} width="142" height="72" alt="epic movement logo"></img>
-                    <div className="Header-Title">
-                        EPIC MOVEMENT
+                    <img src = {logo} alt="epic movement logo" onClick={() => this.props.history.push('/')}></img>
+                    <div className="Header-Title" onClick={() => this.props.history.push('/')}>
+                        UT EPIC MOVEMENT
                     </div>
 
                     <button type="button" className="Menu-Button">
@@ -21,9 +22,9 @@ class Header extends Component{
                     </button>
 
                 </header>
-                
+
             </Fragment>
         );
     }
 }
-export default Header;
+export default withRouter(Header);

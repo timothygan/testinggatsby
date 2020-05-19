@@ -12,9 +12,13 @@ class Header extends Component{
             <Fragment>
                 <header className="Banner">
                     <img src = {logo} width="142" height="72" alt="epic movement logo"></img>
-                    <div className="HeaderTitle">
+                    <div className="Header-Title">
                         EPIC MOVEMENT
                     </div>
+
+                    <button className="Menu-Button">
+
+                    </button>
 
                 </header>
                 
@@ -22,4 +26,4 @@ class Header extends Component{
         );
     }
 }
-export default Header
+export default Header;

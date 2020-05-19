@@ -1,4 +1,4 @@
-.HeaderTitle{
+.Header-Title{
     color: #555555;
     margin-left: 2.5%;
     margin-top: 1.5%;
@@ -13,10 +13,26 @@
     width: 100%;
     height: 72px;
     display: flex;
+    flex-direction: row;
     justify-content: left;
-    background-color:white;
+    background-color: white;
+    border: 1px black; 
 
-  }
+}
+
+.Menu-Button{
+    background-color: #cdedf3; /* Green */
+    border: 1px;
+    width: 30px;
+    height: 30px;
+    margin-left: 50%;
+    margin-top: 1.5%;
+    transition-duration: .3s;
+}
+
+.Menu-Button:hover{
+    background-color: #0289ba; /* Green */
+}
 
 /*
 color pallete?

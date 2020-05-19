@@ -1,5 +1,9 @@
 import React, { Component, Fragment } from 'react';
 import Header from '../components/header';
+import HomeSectionOne from '../components/home-section-one';
+import HomeSectionTwo from '../components/home-section-two';
+import HomeSectionThree from '../components/home-section-three';
+import Footer from '../components/footer';
 
 
 class Home extends Component{
@@ -11,8 +15,11 @@ class Home extends Component{
     render(){
         return(
             <Fragment>
-                <Header></Header>
-
+                <Header/>
+                <HomeSectionOne/>
+                <HomeSectionTwo/>
+                <HomeSectionThree/>
+                <Footer/>
             </Fragment>
         )
     }

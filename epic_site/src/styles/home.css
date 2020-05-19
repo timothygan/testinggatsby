@@ -1,0 +1,16 @@
+.Carousel-Container{
+    height: 85vh;
+    width: 100vw;
+}
+
+.Section-Two{
+    height: 85vh;
+    width: 100vw;
+    background-color: olive;
+}
+
+.Section-Three{
+    height: 85vh;
+    width: 100vw;
+    background-color: skyblue;
+}

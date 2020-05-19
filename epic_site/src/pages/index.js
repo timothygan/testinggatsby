@@ -1,35 +1,30 @@
-import React, { Component, Fragment } from 'react';
+import React, { Component } from 'react';
 import { HashRouter, Switch, Route } from 'react-router-dom';
 import Header from '../components/header';
-import HomeSectionOne from '../components/home-section-one';
-import HomeSectionTwo from '../components/home-section-two';
-import HomeSectionThree from '../components/home-section-three';
 import Footer from '../components/footer';
+import Home from './home';
 
-
-class Home extends Component{
+class App extends Component{
     constructor(props){
         super(props);
     }
 
     render(){
         return(
-            <Fragment>
-                <HashRouter>
-                    <Header/>
+            <HashRouter>
+                <Header/>
+                    <div id='main'>
                         <Switch>
                             <Route exact path ='/'>
-                                <HomeSectionOne/>
-                                <HomeSectionTwo/>
-                                <HomeSectionThree/>
+                                <Home/>
                             </Route>
                         </Switch>
-                    <Footer/>
-                </HashRouter>
-            </Fragment>
+                    </div>
+                <Footer/>
+            </HashRouter>
         )
     }
 }
 
-export default Home;
+export default App;
 

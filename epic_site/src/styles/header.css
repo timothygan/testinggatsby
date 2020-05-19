@@ -34,6 +34,7 @@
     margin-left: auto;
     margin-right: 10%;
     transition-duration: .3s;
+    cursor: pointer;
 }
 
 .Menu-Button:hover{

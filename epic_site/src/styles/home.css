@@ -2,9 +2,10 @@
 .css for section-one, section-two, and section-three of home
 */
 
-.Carousel-Container{
+.Section-One{
     height: 80vh;
     width: 100vw;
+    position: relative;
 }
 
 .Mission-Banner {

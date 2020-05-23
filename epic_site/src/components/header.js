@@ -6,9 +6,19 @@ import './../styles/header.css'
 class Header extends Component{
     constructor(props){
         super(props);
+        this.state = {
+          toggled: false
+        }
+    }
+
+    handleClick() {
+      this.setState(state => ({
+        toggled: !state.toggled
+      }));
     }
 
     render(){
+
         return(
             <Fragment>
                 <header className="Banner">
@@ -19,8 +29,11 @@ class Header extends Component{
                         </div>
                     </Link>
 
-                    <button type="button" className="Menu-Button">
-                        i am a useless button
+                    <button type="button" nClick={ this.handleClick }
+                            className= { this.state.toggled ? "Toggled-Button" : "Menu-Button" }>
+                        <div className="bar1"></div>
+                        <div className="bar2"></div>
+                        <div className="bar3"></div>
                     </button>
 
                 </header>

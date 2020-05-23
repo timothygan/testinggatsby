@@ -15,11 +15,17 @@ class HomeSection3 extends Component{
         return(
             <Fragment>
                 <div className="Section-Three">
-                    <div className="Box">
+                    <div className="box">
                       <img src={img1}></img>
+                      <div className="text-box">
+                        <h3>It's never too late to join a small group!</h3>
+                      </div>
                     </div>
-                    <div className="Box">
+                    <div className="box">
                       <img src={img2}></img>
+                      <div className="text-box">
+                        <h3>It's never too late to join a small group!</h3>
+                      </div>
                     </div>
                 </div>
             </Fragment>

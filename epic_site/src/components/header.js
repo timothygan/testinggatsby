@@ -29,7 +29,7 @@ class Header extends Component{
                         </div>
                     </Link>
 
-                    <button type="button" nClick={ this.handleClick }
+                    <button type="button" onClick={ this.handleClick }
                             className= { this.state.toggled ? "Toggled-Button" : "Menu-Button" }>
                         <div className="bar1"></div>
                         <div className="bar2"></div>

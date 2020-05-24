@@ -1,10 +1,10 @@
 .Header-Title{
-    color: #555555;
-    margin-left: 5px;
+    color: #ffffff;
     font-family: "Libre Franklin";
     font-weight: 700;
     font-size: 26pt;
     cursor: pointer;
+    margin: auto;
 }
 
 .Header-Title-Link {
@@ -13,32 +13,58 @@
 
 .Banner {
     box-sizing: border-box;
+    position: fixed;
+    z-index: 1;
     width: 100%;
     height: 20vh;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    background-color: white;
+    background-color: rgba(83, 108, 136, .7);
     border: 1px black;
+    margin: auto;
 }
 
 .Banner img {
   width: 142px;
   height: 72px;
   cursor: pointer;
+  margin: auto;
 }
 
 .Menu-Button{
-    background-color: #cdedf3; /* Green */
+    background-color: rgba(0, 0, 0, 0);
     border: 1px;
     height: 30px;
     transition-duration: .3s;
+    margin: auto;
+    display: inline-block;
     cursor: pointer;
 }
 
 .Menu-Button:hover{
-    background-color: #0289ba; /* Green */
+    border: white;
+}
+
+.bar1, .bar2, .bar3 {
+  width: 30px;
+  height: 3px;
+  background-color: #ffffff;
+  margin: 6px 0;
+  transition: 0.4s;
+}
+
+.Toggled-Button .bar1 {
+  -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+  transform: rotate(-45deg) translate(-9px, 6px);
+}
+
+.Toggled-Button .bar2 {opacity: 0;}
+
+.Toggled-Button .bar3 {
+  -webkit-transform: rotate(45deg) translate(-8px, -8px);
+  transform: rotate(45deg) translate(-8px, -8px);
 }
 
 /*

@@ -1,11 +1,11 @@
 import React, { Component, Fragment } from "react"
-import "./../styles/image-carousel.css"
-
+import "./../styles/home.css"
+import img from '../images/michelle-baptism.jpeg'
 
 //creates a carousel of images that are passed in through props
 //will fill to 100% of whatever container it is placed in
 
-class ImageCarousel extends Component{
+class HomeSection1 extends Component{
     constructor(props){
         super(props);
     }
@@ -13,12 +13,11 @@ class ImageCarousel extends Component{
     render(){
         return(
             <Fragment>
-                <div className="Carousel">
-                pictures
+                <div className="Section-One">
+                  <img src={img} alt="event image"></img>
                 </div>
-                
             </Fragment>
         );
     }
 }
-export default ImageCarousel;
+export default HomeSection1;

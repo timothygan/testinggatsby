@@ -2,9 +2,10 @@
 .css for section-one, section-two, and section-three of home
 */
 
-.Carousel-Container{
-    height: 80vh;
+.Section-One{
+    height: 100vh;
     width: 100vw;
+    position: relative;
 }
 
 .Mission-Banner {
@@ -26,15 +27,64 @@
 .Section-Two{
     height: 100vh;
     width: 100vw;
-    background-color: olive;
+    background-color: rgb(83, 108, 136);
     text-align: center;
-
+    position: relative;
 }
 
 .Section-Three{
     height: 100vh;
     width: 100vw;
-    background-color: skyblue;
+    background-color: rgb(83, 108, 136);
     text-align: center;
+}
 
+.box{
+  display: inline-block;
+  position: relative;
+  width: 50%;
+  background-color: rgb(290, 150, 120);
+}
+
+.box img{
+  v-index: 0;
+  object-fit: cover;
+  margin: 0;
+  vertical-align: bottom;
+}
+.box:hover img{
+  opacity: 20%;
+}
+.box:hover h3{
+  display: inline-block;
+}
+.box:hover h4{
+  display: none;
+}
+.text-box {
+  position: absolute;
+  height: 100%;
+  text-align: center;
+  width: 60%;
+  transform: translate(35%, -100%);
+}
+.text-box:before {
+  content: '';
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+  horiz-align: center;
+}
+.text-box h3 {
+  display: none;
+  color: white;
+}
+
+.label {
+  background-color: rgba(290, 150, 120, .7);
+  position: absolute;
+  transform: translate(0%, -900%);
+  color: white;
+  padding-left: 10px;
+  padding-right: 10px;
 }

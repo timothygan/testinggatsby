@@ -64,7 +64,13 @@ class AnimatedButton extends Component{
     
 
     render(){
-        //
+        //set these parameters to be strings wherever you use the button, e.g.
+        // <AnimatedButton borderColor='#ffffff'
+        //                 hoverBorderColor='rgba(255,255,0,1)' 
+        //                 background='#000000'
+        //                 width='40px'
+        //                 ...></AnimatedButton>
+        //use rgba if you want to set opacity as well
     
         return(
             <Button borderColor={this.props.borderColor} 

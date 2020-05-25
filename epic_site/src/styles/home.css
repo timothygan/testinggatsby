@@ -133,22 +133,24 @@
 }
 
 .section-two-img-one{
-
-    object-fit: cover;
-    margin: 0;
-    vertical-align: bottom;
     left: 5%;
-    top: 50%;
+    top: 40%;
+    height: 30%;
+    width: 40%;
     position: absolute;
 }
 
-.section-two-img-one{
+.section-two-img-two{
+    left: 55%;
+    height: 30%;
+    width: 40%;
+    top: 15%;
+    position: absolute;
+}
 
+.section-two-img{
     object-fit: cover;
     margin: 0;
     vertical-align: bottom;
-    left: 55%;
-    top: 0%;
-    position: absolute;
+    box-shadow: 5px 5px 5px;
 }
-

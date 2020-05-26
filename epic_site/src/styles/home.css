@@ -8,6 +8,18 @@
     position: relative;
 }
 
+.Section-One img {
+  width: 100%;
+  height: auto;
+}
+
+.AnimatedButton {
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, 0%);
+}
+
 .Mission-Banner {
     box-sizing: border-box;
     width: 100%;
@@ -25,11 +37,77 @@
 }
 
 .Section-Two{
-    height: 100vh;
+    height: 150vh;
     width: 100vw;
     background-color: rgb(83, 108, 136);
     text-align: center;
     position: relative;
+}
+.vertical-line {
+  border-left: 1px solid white;
+  height: 90%;
+  position: absolute;
+  left: 50%;
+  margin-left: -3px;
+  background: transparent;
+  top: 5%;
+}
+
+.mission-statement {
+  height: 20%;
+  width: 42.5%;
+  text-align: right;
+  line-height: 2;
+  font-size: 28pt;
+  position: absolute;
+  left: 2%;
+  top: 10%;
+  color: white;
+  font-family: "Libre Franklin";
+  letter-spacing: .05em;
+  margin-right: 10%;
+}
+
+.bold-words {
+  font-weight: bold;
+  color: rgb(247, 200, 162);
+}
+
+.who-we-are {
+  height: 20%;
+  width: 45%;
+  text-align: left;
+  line-height: 2;
+  font-size: 28pt;
+  position: absolute;
+  left: 55%;
+  top: 67%;
+  color: white;
+  font-family: "Libre Franklin";
+  letter-spacing: .05em;
+}
+
+.section-two-img-one{
+  left: 5%;
+  top: 45%;
+  height: 30%;
+  width: 40%;
+  position: absolute;
+}
+
+.section-two-img-two{
+  left: 55%;
+  height: 30%;
+  width: 40%;
+  top: 22%;
+  position: absolute;
+}
+
+.section-two-img{
+  object-fit: cover;
+  margin: 0;
+  vertical-align: bottom;
+  box-shadow: 5px 5px 5px;
 }
 
 .Section-Three{
@@ -43,7 +121,7 @@
   display: inline-block;
   position: relative;
   width: 50%;
-  background-color: rgb(290, 150, 120);
+  background-color: rgb(255, 134, 110);
 }
 
 .box img{
@@ -51,6 +129,10 @@
   object-fit: cover;
   margin: 0;
   vertical-align: bottom;
+  transition: 0.3s;
+}
+.box .AnimatedButton {
+  top: 60%;
 }
 .box:hover img{
   opacity: 20%;
@@ -59,6 +141,12 @@
   display: inline-block;
 }
 .box:hover h4{
+  display: none;
+}
+.box:hover .AnimatedButton{
+  display: inline-block;
+}
+.box .AnimatedButton {
   display: none;
 }
 .text-box {
@@ -81,7 +169,7 @@
 }
 
 .label {
-  background-color: rgba(290, 150, 120, .7);
+  background-color: rgba(255, 134, 110, 0.7);
   position: absolute;
   transform: translate(0%, -900%);
   color: white;
@@ -89,68 +177,3 @@
   padding-right: 10px;
 }
 
-.vertical-line {
-    border-left: 1px solid white;
-    height: 90%;
-    position: absolute;
-    left: 50%;
-    margin-left: -3px;
-    background: transparent;
-    top: 5%;
-}
-
-.mission-statement {
-    height: 20%;
-    width: 42.5%;
-    text-align: right;
-    line-height: 2;
-    font-size: 28pt;
-    position: absolute;
-    left: 5%;
-    top: 7.5%;
-    color: white;
-    font-family: "Libre Franklin";
-    letter-spacing: .05em;
-}
-
-.bold-words {
-    font-weight: bold;
-    color: rgb(247, 200, 162);
-}
-
-.who-we-are {
-    height: 20%;
-    width: 45%;
-    text-align: left;
-    line-height: 2;
-    font-size: 28pt;
-    position: absolute;
-    left: 52.5%;
-    top: 65%;
-    color: white;
-    font-family: "Libre Franklin";
-    letter-spacing: .05em;
-}
-
-.section-two-img-one{
-    left: 5%;
-    top: 40%;
-    height: 30%;
-    width: 40%;
-    position: absolute;
-}
-
-.section-two-img-two{
-    left: 55%;
-    height: 30%;
-    width: 40%;
-    top: 15%;
-    position: absolute;
-}
-
-.section-two-img{
-    object-fit: cover;
-    margin: 0;
-    vertical-align: bottom;
-    box-shadow: 5px 5px 5px;
-}

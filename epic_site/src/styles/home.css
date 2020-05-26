@@ -3,7 +3,7 @@
 */
 
 .Section-One{
-    height: 100vh;
+    height: auto;
     width: 100vw;
     position: relative;
 }
@@ -11,6 +11,9 @@
 .Section-One img {
   width: 100%;
   height: auto;
+  vertical-align: bottom;
+  object-fit: cover;
+  margin: 0;
 }
 
 .AnimatedButton {
@@ -18,6 +21,8 @@
   top: 80%;
   left: 50%;
   transform: translate(-50%, 0%);
+  max-height: 10%;
+  font-size: 1.5vw;
 }
 
 .Mission-Banner {
@@ -37,7 +42,7 @@
 }
 
 .Section-Two{
-    height: 150vh;
+    height: 100vw;
     width: 100vw;
     background-color: rgb(83, 108, 136);
     text-align: center;
@@ -58,7 +63,7 @@
   width: 42.5%;
   text-align: right;
   line-height: 2;
-  font-size: 28pt;
+  font-size: 2.5vw;
   position: absolute;
   left: 2%;
   top: 10%;
@@ -78,7 +83,7 @@
   width: 45%;
   text-align: left;
   line-height: 2;
-  font-size: 28pt;
+  font-size: 2.5vw;
   position: absolute;
   left: 55%;
   top: 67%;
@@ -171,7 +176,7 @@
 .label {
   background-color: rgba(255, 134, 110, 0.7);
   position: absolute;
-  transform: translate(0%, -900%);
+  top: 10%;
   color: white;
   padding-left: 10px;
   padding-right: 10px;

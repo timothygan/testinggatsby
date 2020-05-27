@@ -12,21 +12,19 @@ class HomeSection2 extends Component{
     }
 
 
-   
-    
+
+
 
 
     render(){
         return(
             <Fragment>
                 <div className="Section-Two">
-                    
+
                     <div className="vertical-line">
                     </div>
 
-                    
-                    
-                    
+
                     <div className="mission-statement">
                         <div data-sal="slide-right"
                         data-sal-delay="300"
@@ -39,10 +37,8 @@ class HomeSection2 extends Component{
                             who truly follows <span className="bold-words">Christ</span>.
                         </div>
                     </div>
-                        
-                    
 
-                    
+
                     <div className="who-we-are">
                         <div data-sal="slide-left"
                         data-sal-delay="300"
@@ -55,23 +51,23 @@ class HomeSection2 extends Component{
                             <span className="bold-words">passionate</span> about <span className="bold-words">Jesus</span>!
                         </div>
                     </div>
-                    
+
 
                     <div className="section-two-img-one">
                         <div data-sal="zoom-in"
-               
+
                         data-sal-easing="easeOutQuart"
                         style={{"--sal-duration": ".6s"}}>
-                            <img className="section-two-img" src={img1}></img>
+                            <img className="section-two-img" src={img1} alt="event"></img>
                         </div>
                     </div>
 
                     <div className="section-two-img-two">
                         <div data-sal="zoom-out"
-                        
+
                         data-sal-easing="easeOutQuart"
                         style={{"--sal-duration": ".6s"}}>
-                            <img className="section-two-img" src={img2}></img>
+                            <img className="section-two-img" src={img2} alt="event"></img>
                         </div>
                     </div>
                 </div>

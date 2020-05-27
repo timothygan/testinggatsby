@@ -11,10 +11,10 @@ class Header extends Component{
         }
     }
 
-    handleClick() {
-      this.setState(state => ({
-        toggled: !state.toggled
-      }));
+    handleClick = () => {
+      this.setState({
+        toggled: !this.state.toggled
+      });
     }
 
     render(){
@@ -29,12 +29,12 @@ class Header extends Component{
                         </div>
                     </Link>
 
-                    <button type="button" onClick={ this.handleClick }
+                    <div onClick={ this.handleClick }
                             className= { this.state.toggled ? "Toggled-Button" : "Menu-Button" }>
                         <div className="bar1"></div>
                         <div className="bar2"></div>
                         <div className="bar3"></div>
-                    </button>
+                    </div>
 
                 </header>
 

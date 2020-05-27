@@ -15,7 +15,7 @@ class HomeSection1 extends Component{
         return(
             <Fragment>
                 <div className="Section-One">
-                  <img src={img} alt="event image"></img>
+                  <img src={img} alt="upcoming event"></img>
                   <AnimatedButton
                     className="AnimatedButton"
                     background='rgba(0, 0, 0, .5)'

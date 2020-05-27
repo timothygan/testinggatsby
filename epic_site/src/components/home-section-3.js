@@ -15,7 +15,7 @@ class HomeSection3 extends Component{
             <Fragment>
                 <div className="Section-Three">
                     <div className="box">
-                      <img src={img1}></img>
+                      <img src={img1} alt="small group"></img>
                       <div className="label">
                         <h4>Small Group</h4>
                       </div>
@@ -32,7 +32,7 @@ class HomeSection3 extends Component{
                       </AnimatedButton>
                     </div>
                     <div className="box">
-                      <img src={img2}></img>
+                      <img src={img2} alt="large group"></img>
                       <div className="label">
                         <h4>Large Group</h4>
                       </div>

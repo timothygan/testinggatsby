@@ -55,8 +55,6 @@ const Button = styled.button`
 class AnimatedButton extends Component{
     constructor(props){
         super(props);
-        
-        console.log(this.props)
 
     }
 

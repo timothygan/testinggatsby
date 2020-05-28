@@ -1,0 +1,21 @@
+.card {
+    height: 80%;
+    width: 25%;
+    background: rgba(290, 150, 120);
+}
+
+.card-button {
+    bottom: 10%;
+    left: 50%;
+    margin: 15% auto;
+}
+
+.graphic {
+    margin: 5% auto;
+}
+
+.st0{
+    stroke: white;
+    stroke-width: 5pt;
+    fill: transparent;
+}

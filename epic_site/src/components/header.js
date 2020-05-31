@@ -7,8 +7,13 @@ class Header extends Component{
     constructor(props){
         super(props);
         this.state = {
-          toggled: false
+          toggled: false,
+          scrolled: false
         }
+    }
+
+    componentDidMount() {
+      window.addEventListener('scroll', this.handleScroll);
     }
 
     handleClick = () => {
@@ -17,11 +22,25 @@ class Header extends Component{
       });
     }
 
+    handleScroll = () => {
+      if(window.scrollY > document.getElementById('Banner').clientHeight) {
+        this.setState({
+          scrolled: true
+        });
+      } else {
+        this.setState({
+          scrolled: false
+        });
+      }
+    }
+
     render(){
 
         return(
             <Fragment>
-                <header className="Banner">
+                <header onScroll={ this.handleScroll }
+                          className={ this.state.scrolled ? "scrolled" : "Banner" }
+                          id="Banner">
                     <Link to={'/'}><img src = {logo} alt="epic movement logo"></img></Link>
                     <Link to={'/'} className={"Header-Title-Link"}>
                         <div className="Header-Title">

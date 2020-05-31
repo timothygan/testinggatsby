@@ -3,9 +3,6 @@ import "./../styles/home.css"
 import img from '../images/michelle-baptism.jpeg'
 import AnimatedButton from "./animated-button";
 
-//creates a carousel of images that are passed in through props
-//will fill to 100% of whatever container it is placed in
-
 class HomeSection1 extends Component{
     constructor(props){
         super(props);

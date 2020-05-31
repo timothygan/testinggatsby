@@ -2,9 +2,11 @@
 .css for section-one, section-two, and section-three of home
 */
 
+*{
+  overflow: hidden;
+}
+
 .Section-One{
-    height: auto;
-    width: 100vw;
     position: relative;
 }
 
@@ -14,6 +16,7 @@
   vertical-align: bottom;
   object-fit: cover;
   margin: 0;
+  padding: 0;
 }
 
 .AnimatedButton {
@@ -23,22 +26,6 @@
   transform: translate(-50%, 0%);
   max-height: 10%;
   font-size: 1.5vw;
-}
-
-.Mission-Banner {
-    box-sizing: border-box;
-    width: 100%;
-    height: 30vh;
-    background-color: white;
-    border: 1px black;
-    color: #555555;
-    font-family: "Libre Franklin";
-    font-weight: 700;
-    font-size: 3vw;
-    display: table-cell;
-    vertical-align: middle;
-    padding: 10px;
-    line-height: 32pt;
 }
 
 .Section-Two{

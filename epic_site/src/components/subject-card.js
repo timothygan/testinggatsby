@@ -22,11 +22,11 @@ class SubjectCard extends Component{
             <Fragment>
                 <div className="card">
                 <div className="graphic">
-                <svg    viewBox="0 0 226.51 195.28" 
+                <svg    viewBox="0 0 226.51 200" 
                             x="0px" y="0px"
                             width="226.51px" 
-                            height="195.28px">
-<path class="st0" d="M160.98,98.93c-0.31,5.24-4.85,9.2-10.02,9.2l-28.54,0c-0.03,0-0.05,0.02-0.05,0.05v75.39
+                            height="200px">
+<path class="cross" d="M160.98,98.93c-0.31,5.24-4.85,9.2-10.02,9.2l-28.54,0c-0.03,0-0.05,0.02-0.05,0.05v75.39
 	c0,5.25-3.89,9.86-9.05,10.18c-5.6,0.35-10.26-4.18-10.26-9.8v-75.78c0-0.03-0.02-0.05-0.05-0.05l-28.54,0
 	c-5.17,0-9.7-3.96-10.02-9.2c-0.34-5.7,4.11-10.43,9.64-10.43H103c0.03,0,0.05-0.02,0.05-0.05l0-31.73c0-5.25,3.9-9.86,9.05-10.18
 	c5.6-0.35,10.26,4.18,10.26,9.8v32.11c0,0.03,0.02,0.05,0.05,0.05h28.92C156.87,88.49,161.32,93.23,160.98,98.93z"/>
@@ -71,7 +71,7 @@ class SubjectCard extends Component{
                     <div className="card-button">
                     
                         <AnimatedButton text={this.props.buttonText} 
-                                        hoverBackground='rgba(255,255,255,.9)'
+                                        hoverBackground='rgba(255,255,255,1)'
                                         hoverTextColor='rgba(255, 150, 120)'></AnimatedButton>
                     </div>
                     

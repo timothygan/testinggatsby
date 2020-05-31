@@ -52,13 +52,11 @@ const AnimatedButton = styled.button`
     }
 `;
 
-/*
+
 
 class AnimatedButton extends Component{
     constructor(props){
         super(props);
-
-        console.log(this.props)
 
     }
 
@@ -92,5 +90,5 @@ class AnimatedButton extends Component{
 
         );
     }
-}*/
+}
 export default AnimatedButton;

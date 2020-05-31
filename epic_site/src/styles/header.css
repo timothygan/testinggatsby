@@ -19,7 +19,7 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     background-color: rgba(83, 108, 136, .7);
 }
 
@@ -27,19 +27,19 @@
   width: 10vw;
   height: auto;
   cursor: pointer;
-  margin: auto;
+  margin-left: 10%;
+  margin-top: 20%;
 }
 
 .Menu-Button{
     background-color: rgba(0, 0, 0, 0);
     border: 1px;
     width: 2.5vw;
-    height: auto;
     transition-duration: .3s;
-    margin: auto;
     display: inline-block;
     cursor: pointer;
     outline: none;
+    margin-right: 5%;
 }
 
 .Toggled-Button {
@@ -48,7 +48,6 @@
     width: 3vw;
     height: auto;
     transition-duration: .3s;
-    margin: auto;
     display: inline-block;
     cursor: pointer;
     outline: none;

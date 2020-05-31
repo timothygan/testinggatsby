@@ -7,7 +7,7 @@
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    background-color: rgba(83, 108, 136, .7);
+    background-color: rgba(83, 100, 120, .7);
     transition: 0.4s;
 }
 
@@ -25,6 +25,7 @@
   font-family: "Libre Franklin";
   font-weight: 700;
   font-size: 2.5vw;
+  line-height: 1;
   cursor: pointer;
   margin: auto;
   letter-spacing: 4px;
@@ -40,7 +41,7 @@
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  background-color: rgba(83, 108, 136, .7);
+  background-color: rgba(78, 95, 115, .7);
   transition: 0.4s;
 }
 

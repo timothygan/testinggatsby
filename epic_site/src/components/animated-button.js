@@ -9,7 +9,7 @@ const AnimatedButton = styled.button`
     border-color : ${props => props.borderColor ? props.borderColor : 'white'};
     color : ${props => props.textColor ? props.textColor : 'white'};
     align : center;
-    padding : ${props => props.padding ? props.padding : '10px 30px 10px 30px'};
+    padding : ${props => props.padding ? props.padding : '.5vw .5vw .5vw .5vw'};
     background-color : ${props => props.background ? props.background : 'transparent'};;
     -webkit-transition : all 0.4s;
     -moz-transition : all 0.4s;
@@ -20,6 +20,8 @@ const AnimatedButton = styled.button`
     display : inline-block;
     z-index: 1;
     cursor: pointer;
+    white-space:nowrap;
+    text-align: center;
 
     &:hover{
         color: ${props => props.hoverTextColor ? props.hoverTextColor : 'black'};

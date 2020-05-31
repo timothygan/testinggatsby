@@ -1,6 +1,6 @@
 import React, { Component, Fragment } from "react"
 import { Link } from 'gatsby'
-import logo from './../images/logo.png'
+import logo from './../images/bw-epic-logo.png'
 import './../styles/header.css'
 
 class Header extends Component{

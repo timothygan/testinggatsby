@@ -9,15 +9,17 @@
     justify-content: space-between;
     background-color: rgba(83, 100, 120, .7);
     transition: 0.4s;
+    padding-left: 1%;
+    padding-right: 1%;
 }
 
 .Banner img {
   width: 10vw;
   height: auto;
   cursor: pointer;
-  margin-left: 10%;
   margin-top: 20%;
   transition: 0.4s;
+
 }
 
 .Banner .Header-Title{
@@ -43,6 +45,8 @@
   justify-content: space-between;
   background-color: rgba(78, 95, 115, .7);
   transition: 0.4s;
+  padding-left: 1%;
+  padding-right: 1%;
 }
 
 .scrolled .Header-Title {
@@ -59,7 +63,6 @@
   width: 6vw;
   height: auto;
   cursor: pointer;
-  margin-left: 10%;
   margin-top: 37%;
   transition: 0.4s;
 }

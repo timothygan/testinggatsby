@@ -109,6 +109,19 @@
     text-align: center;
 }
 
+.Section-Four{
+  height: 50vh;
+  width: 100vw;
+  background-color: white;
+  text-align: center;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  display: flex;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
 .box{
   display: inline-block;
   position: relative;

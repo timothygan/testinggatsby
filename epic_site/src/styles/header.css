@@ -71,47 +71,41 @@
   text-decoration: none;
 }
 
-.Menu-Button{
-    background-color: rgba(0, 0, 0, 0);
-    border: 1px;
-    width: 2.5vw;
-    transition-duration: .3s;
-    display: inline-block;
-    cursor: pointer;
-    outline: none;
-    margin-right: 5%;
+/* The side navigation menu */
+#sidenav {
+  height: 100%;
+  width: 0%;
+  position: fixed;
+  z-index: 2;
+  top: 0;
+  right: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 2.8%;
+  transition: 0.5s;
+  font-family: "Libre Franklin";
+  white-space: nowrap;
 }
 
-.Toggled-Button {
-    background-color: rgba(0, 0, 0, 0);
-    border: 1px;
-    width: 2.5vw;
-    height: auto;
-    transition-duration: .3s;
-    display: inline-block;
-    cursor: pointer;
-    outline: none;
-    margin-right: 5%;
+/* The navigation menu links */
+#sidenav a {
+  padding: 10px 10px 10px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
 }
 
-.bar1, .bar2, .bar3 {
-  width: 100%;
-  height: 3px;
-  background-color: #ffffff;
-  margin: 6px 0;
-  transition: 0.4s;
+/* When you mouse over the navigation links, change their color */
+#sidenav a:hover {
+  color: #f1f1f1;
 }
 
-.Toggled-Button .bar1 {
-  -webkit-transform: rotate(-45deg) translate(-9px, 6px);
-  transform: rotate(-45deg) translate(-9px, 4px);
-}
-
-.Toggled-Button .bar2 {opacity: 0;}
-
-.Toggled-Button .bar3 {
-  -webkit-transform: rotate(45deg) translate(-8px, -4px);
-  transform: rotate(45deg) translate(-8px, -4px);
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
 }
 
 /*

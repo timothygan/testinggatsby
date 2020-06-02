@@ -8,6 +8,7 @@
 
 .Section-One{
     position: relative;
+    z-index: 0;
 }
 
 .Section-One img {
@@ -107,6 +108,7 @@
     width: 100vw;
     background-color: rgb(83, 108, 136);
     text-align: center;
+    z-index: -1;
 }
 
 .Section-Four{
@@ -127,6 +129,7 @@
   position: relative;
   width: 50%;
   background-color: rgb(255, 134, 110);
+  z-index: 0;
 }
 
 .box img{

@@ -2,7 +2,6 @@ import React, { Component, Fragment } from "react"
 import { Link } from 'gatsby'
 import logo from './../images/bw-epic-logo.png'
 import './../styles/header.css'
-import '../styles/menu-button.css'
 
 class Header extends Component{
     constructor(props){
@@ -78,6 +77,7 @@ class Header extends Component{
                       <a href="#">Blog</a>
                       <a href="#">Exploring Faith</a>
                       <a href="#">Contact Us</a>
+                      <a href="#">Merch Shop</a>
                     </div>
                 </header>
 

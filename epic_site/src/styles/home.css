@@ -112,7 +112,7 @@
 .Section-Four{
   height: 50vh;
   width: 100vw;
-  background-color: white;
+  background-color: rgb(83, 108, 136);
   text-align: center;
   flex-direction: row;
   align-items: center;

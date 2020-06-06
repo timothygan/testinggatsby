@@ -217,12 +217,11 @@ img {
 h1 {
   padding: 0;
   margin: 0 0 1.45rem;
-  color: inherit;
+  color: white;
   font-family: "Libre Franklin";
-  font-weight: bold;
+  font-weight: normal;
   text-rendering: optimizeLegibility;
-  font-size: 2.25rem;
-  line-height: 1.1;
+  font-size: 4rem;
 }
 h2 {
   padding: 0;

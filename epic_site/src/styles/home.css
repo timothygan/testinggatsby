@@ -111,19 +111,6 @@
     z-index: -1;
 }
 
-.Section-Four{
-  height: 50vh;
-  width: 100vw;
-  background-color: rgb(83, 108, 136);
-  text-align: center;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-evenly;
-  display: flex;
-  padding-left: 5%;
-  padding-right: 5%;
-}
-
 .box{
   display: inline-block;
   position: relative;
@@ -131,7 +118,6 @@
   background-color: rgb(255, 134, 110);
   z-index: 0;
 }
-
 .box img{
   v-index: 0;
   object-fit: cover;
@@ -184,4 +170,18 @@
   padding-left: 10px;
   padding-right: 10px;
 }
+
+.Section-Four{
+  height: 50vh;
+  width: 100vw;
+  background-color: rgb(83, 108, 136);
+  text-align: center;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  display: flex;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
 

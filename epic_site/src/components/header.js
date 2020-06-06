@@ -67,6 +67,7 @@ class Header extends Component{
                         <div className="bar3"></div>
                     </div>
                     <div id="sidenav" >
+                      <a href="/">Home</a>
                       <a href="#">About</a>
                       <a href="#">Calendar</a>
                       <a href="#">Large Group</a>

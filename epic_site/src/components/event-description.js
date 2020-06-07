@@ -1,32 +1,31 @@
-import React, { Component, Fragment } from "react"
+import React, { Fragment } from "react"
 import "./../styles/event.css"
 
-class EventDescription extends Component{
-  constructor(props){
-    super(props);
-  }
-
-  render(){
-    let start = this.props.tagline.indexOf(this.props.emphasis);
-    let end = start + this.props.emphasis.length;
-    let tagline_start = this.props.tagline.substring(0, start);
-    let tagline_end = this.props.tagline.substring(end);
+/* props: {tagline, emphasis, description}
+   tagline: large lettered statement
+   emphasis: word/phrase that is displayed with emphasis font color
+   description: info under tagline
+ */
+const EventDescription = props => {
+    let start = props.tagline.indexOf(props.emphasis);
+    let end = start + props.emphasis.length;
+    let tagline_start = props.tagline.substring(0, start);
+    let tagline_end = props.tagline.substring(end);
 
     return(
       <Fragment>
         <div className="event-description">
           <div id={'tagline'}>
             {tagline_start}
-            <span id='emphasis'>{this.props.emphasis}</span>
+            <span id='emphasis'>{props.emphasis}</span>
             {tagline_end}
           </div>
           <div id={'description'}>
-            {this.props.description}
+            {props.description}
           </div>
         </div>
       </Fragment>
     );
-  }
 }
 
 export default EventDescription;

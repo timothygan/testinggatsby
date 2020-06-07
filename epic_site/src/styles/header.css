@@ -2,7 +2,7 @@
 
 .Banner {
     position: fixed;
-    z-index: 1;
+    z-index: 5;
     width: 100vw;
     height: 8vw;
     display: flex;
@@ -38,7 +38,7 @@
 
 .scrolled {
   position: fixed;
-  z-index: 1;
+  z-index: 5;
   width: 100vw;
   height: 4vw;
   display: flex;

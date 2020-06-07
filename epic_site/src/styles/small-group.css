@@ -1,0 +1,87 @@
+/*
+title-color:'rgb(220, 159, 158)';
+panel-color:'rgb(238, 200, 199)';
+*/
+
+.container {
+  position: relative;
+  font-family: "Libre Franklin";
+  background-color: rgb(88, 109, 133);
+  height: 50vw;
+  width: 100%;
+}
+.pink-panel{
+  position: relative;
+  height: 50%;
+  width: 80%;
+  background-color: rgb(238, 200, 199);
+  margin: 5% auto;
+  padding: 2% 6%;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-between;
+  text-align: center;
+}
+.pink-panel-title{
+  background-color: rgb(220, 159, 158);
+  padding-left: 2%;
+  position: absolute;
+  height: 5vw;
+  width: 25vw;
+  top: 5%;
+  left: 13%;
+  z-index: 2;
+  line-height: 5vw;
+  font-size: 2.5vw;
+  color: white;
+}
+
+.blue-panel{
+
+}
+.blue-panel-title{
+}
+
+#sg-title-back-panel {
+  position: absolute;
+  height: 5vw;
+  width: 25vw;
+  transform: translate(.5vw, .5vw);
+  background-color: white;
+  z-index: 1;
+}
+
+.sg-card-container{
+  position: relative;
+  background-color: rgb(238, 200, 199);
+  height: 100%;
+  width: 22%;
+  font-size: 90%;
+}
+.sg-card{
+  position: absolute;
+  background-color: white;
+  height: 60%;
+  width: 100%;
+  font-size: .8vw;
+  bottom: 0;
+  line-height: 1.5vw;
+  border-radius: 5px;
+}
+.sg-card-content{
+  position: absolute;
+  bottom: 10%;
+  padding: 5% 10%;
+}
+.sg-leader-img-wrapper{
+  filter: drop-shadow(-1px 0px 5px rgba(0, 0, 0, 1));
+  height: 50%;
+  width: 70%;
+  position: absolute;
+  top: 15%;
+  left: 15%;
+}
+.sg-leader-img{
+  clip-path: circle(50% at center);
+}

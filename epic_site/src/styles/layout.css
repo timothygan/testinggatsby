@@ -221,7 +221,7 @@ h1 {
   font-family: "Libre Franklin";
   font-weight: normal;
   text-rendering: optimizeLegibility;
-  font-size: 4rem;
+  font-size: 4vw;
 }
 h2 {
   padding: 0;

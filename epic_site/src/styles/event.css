@@ -5,7 +5,7 @@
 .event-header{
   position: relative;
   z-index: 0;
-  background-color: rgb(83, 108, 136);
+  background-color: rgb(88, 109, 133);
   height: 70%;
 }
 
@@ -22,15 +22,48 @@
 .panel {
   position: absolute;
   background-color: rgb(251, 231, 230);
-  width: 45%;
+  width: 44%;
   height: 8vw;
   left: 45%;
   top: 70%;
 }
 
 #front-panel {
-  transform: translate(-20px, -20px);
+  transform: translate(-1vw, -1vw);
   background-color: rgb(220, 159, 158);
-  text-align: center;
+  text-align: left;
+  padding-left: 5%;
   line-height: 8vw;
+  font-size: 20%;
+}
+
+.event-description{
+  position: relative;
+  z-index: 0;
+  background-color: rgb(88, 109, 133);
+  font-family: 'Libre Franklin';
+}
+
+#tagline{
+  text-align: left;
+  padding-left: 5%;
+  width: 80%;
+  line-height: 11vw;
+  font-size: 10vw;
+  color: #333333;
+  margin: 4% auto;
+  border-left: thick solid rgb(220, 159, 158);
+}
+
+#emphasis{
+  color: rgb(220, 159, 158);
+}
+
+#description{
+  color: white;
+  font-size: 2vw;
+  margin: auto;
+  line-height: 3vw;
+  width: 80%;
+  margin: 4% auto;
 }

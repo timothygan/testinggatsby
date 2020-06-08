@@ -9,7 +9,7 @@ panel-color:'rgb(238, 200, 199)';
   background-color: rgb(88, 109, 133);
   height: 50vw;
   width: 100%;
-  margin: -20% 0;
+  margin-bottom: -20%;
 }
 .pink-panel{
   position: relative;

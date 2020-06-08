@@ -60,6 +60,7 @@
 }
 
 #description{
+  position: relative;
   color: white;
   font-size: 2vw;
   margin: auto;

@@ -10,11 +10,8 @@ const EventHeader = props => {
       <Fragment>
         <div className="event-header">
           <img src={props.image} alt="event image"></img>
-          <div className={'event-title'}>
-            <div className={'panel'}></div>
-            <div className={'panel'} id={'front-panel'}>
-              <h1>{props.title}</h1>
-            </div>
+          <div className={'event-title-panel'}>
+            <h1>{props.title}</h1>
           </div>
         </div>
       </Fragment>

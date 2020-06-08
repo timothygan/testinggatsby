@@ -5,6 +5,7 @@ import EventHeader from "../components/event-header";
 import EventDescription from "../components/event-description";
 import img from '../images/sg.jpg';
 import SmallGroupPanel from "../components/small-group-panel";
+import Form from '../components/form';
 import img1 from '../images/kevin.jpg';
 import img2 from '../images/mark.jpg';
 import img3 from '../images/austin.jpg';
@@ -69,6 +70,8 @@ class SmallGroup extends Component{
           locations={['Orange Tree', 'Orange Tree', 'Orange Tree']}
         >
         </SmallGroupPanel>
+        <div id={'sg-signup-prompt'}>Interested? Sign up here!</div>
+        <Form url={'https://forms.gle/1PwZbdnAmiuPiAh28'}></Form>
         <Footer/>
       </Fragment>
     )

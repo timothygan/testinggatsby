@@ -19,22 +19,18 @@
   padding: 0;
 }
 
-.panel {
+.event-title-panel {
   position: absolute;
-  background-color: rgb(251, 231, 230);
   width: 44%;
   height: 8vw;
   left: 45%;
   top: 70%;
-}
-
-#front-panel {
-  transform: translate(-1vw, -1vw);
   background-color: rgb(220, 159, 158);
   text-align: left;
   padding-left: 5%;
   line-height: 8vw;
   font-size: 20%;
+  box-shadow: 1vw 1vw rgb(251, 231, 230);
 }
 
 .event-description{

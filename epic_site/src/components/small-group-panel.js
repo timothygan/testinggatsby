@@ -16,13 +16,10 @@ const SmallGroupPanel = props => {
   return(
     <Fragment>
       <div className={'container'}>
-        <div className={'sg-title-panel'}>
-          <div className={props.type + '-title'}>
-            {props.title}
-          </div>
-          <div className={props.type + '-title'} id={'sg-title-back-panel'}></div>
+        <div className={props.type + ' sg-panel-title'}>
+          {props.title}
         </div>
-        <div className={props.type}>
+        <div className={props.type + ' sg-panel'}>
           <SmallGroupCard
             img={props.pictures[0]}
             name={props.names[0]}

@@ -70,8 +70,10 @@ class SmallGroup extends Component{
           locations={['Orange Tree', 'Orange Tree', 'Orange Tree']}
         >
         </SmallGroupPanel>
-        <div id={'sg-signup-prompt'}>Interested? Sign up here!</div>
-        <Form url={'https://forms.gle/1PwZbdnAmiuPiAh28'}></Form>
+        <div className={'bottom-section'}>
+          <div id={'sg-signup-prompt'}>Interested? Sign up here!</div>
+          <Form url={'https://forms.gle/1PwZbdnAmiuPiAh28'}></Form>
+        </div>
         <Footer/>
       </Fragment>
     )

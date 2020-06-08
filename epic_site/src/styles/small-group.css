@@ -108,3 +108,17 @@ panel-color:'rgb(238, 200, 199)';
 .sg-leader-img{
   clip-path: circle(45% at center);
 }
+
+.bottom-section {
+  background-color: rgb(88, 109, 133);
+}
+
+#sg-signup-prompt {
+  font-family: "Libre Franklin";
+  font-size: 5vw;
+  line-height: 5vw;
+  width: 30%;
+  position: relative;
+  color: white;
+  margin: 5vw 15vw;
+}

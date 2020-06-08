@@ -27,19 +27,22 @@ const SmallGroupPanel = props => {
             img={props.pictures[0]}
             name={props.names[0]}
             time={props.times[0]}
-            location={props.locations[0]}>
+            location={props.locations[0]}
+            color={props.type.substring(0, 4)}>
           </SmallGroupCard>
           <SmallGroupCard
             img={props.pictures[1]}
             name={props.names[1]}
             time={props.times[1]}
-            location={props.locations[1]}>
+            location={props.locations[1]}
+            color={props.type.substring(0, 4)}>
           </SmallGroupCard>
           <SmallGroupCard
             img={props.pictures[2]}
             name={props.names[2]}
             time={props.times[2]}
-            location={props.locations[2]}>
+            location={props.locations[2]}
+            color={props.type.substring(0, 4)}>
           </SmallGroupCard>
         </div>
       </div>

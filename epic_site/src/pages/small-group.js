@@ -8,6 +8,15 @@ import SmallGroupPanel from "../components/small-group-panel";
 import img1 from '../images/kevin.jpg';
 import img2 from '../images/mark.jpg';
 import img3 from '../images/austin.jpg';
+import img4 from '../images/joy.jpg';
+import img5 from '../images/jolene.jpg';
+import img6 from '../images/rebecca.jpg';
+import img7 from '../images/george.jpg';
+import img8 from '../images/brian.jpg';
+import img9 from '../images/jerry.jpg';
+import img10 from '../images/monica.jpg';
+import img11 from '../images/julia.jpg';
+import img12 from '../images/azelia.jpg';
 
 class SmallGroup extends Component{
   constructor(props){
@@ -31,6 +40,33 @@ class SmallGroup extends Component{
           names={['Kevin Chen', 'Mark Cheng', 'Austin Li']}
           times={['Mondays @ 7pm', 'Tuesdays @ 7pm', 'Mondays @ 8pm']}
           locations={['Orange Tree', 'Jester West Lobby', 'J2']}
+        >
+        </SmallGroupPanel>
+        <SmallGroupPanel
+          type={'blue-panel'}
+          pictures={[img4, img5, img6]}
+          title={'Freshman Girls'}
+          names={['Joy Yeh', 'Jolene Chao', 'Rebecca Peng']}
+          times={['Mondays @ 7pm', 'Tuesdays @ 7pm', 'Mondays @ 8pm']}
+          locations={['Union', 'Orange Tree', 'Quarters Sterling']}
+        >
+        </SmallGroupPanel>
+        <SmallGroupPanel
+          type={'pink-panel'}
+          pictures={[img7, img8, img9]}
+          title={'Upper Guys'}
+          names={['George Huang', 'Brian Chiu', 'Jerry Yuen']}
+          times={['Mondays @ 7pm', 'Tuesdays @ 7pm', 'Mondays @ 8pm']}
+          locations={['Orange Tree', 'Orange Tree', 'Orange Tree']}
+        >
+        </SmallGroupPanel>
+        <SmallGroupPanel
+          type={'blue-panel'}
+          pictures={[img10, img11, img12]}
+          title={'Upper Girls'}
+          names={['Monica Dang', 'Julia Zheng', 'Azelia Lau']}
+          times={['Mondays @ 7pm', 'Tuesdays @ 7pm', 'Mondays @ 8pm']}
+          locations={['Orange Tree', 'Orange Tree', 'Orange Tree']}
         >
         </SmallGroupPanel>
         <Footer/>

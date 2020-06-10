@@ -34,42 +34,44 @@ class SmallGroup extends Component{
           emphasis={'heart.'}
           description={'Small group is a place where you can study the Bible and live life alongside a tight-knit community of believers. We want to create an open, comfortable space where you can learn about God, grow closer to one another, and share in your joys and sorrows. Feel free to fill out the small group interest form at the bottom of this page to get connected!'}>
         </EventDescription>
-        <SmallGroupPanel
-          type={'pink-panel'}
-          pictures={[img1, img2, img3]}
-          title={'Freshman Guys'}
-          names={['Kevin Chen', 'Mark Cheng', 'Austin Li']}
-          times={['Mondays @ 7pm', 'Tuesdays @ 7pm', 'Mondays @ 8pm']}
-          locations={['Orange Tree', 'Jester West Lobby', 'J2']}
-        >
-        </SmallGroupPanel>
-        <SmallGroupPanel
-          type={'blue-panel'}
-          pictures={[img4, img5, img6]}
-          title={'Freshman Girls'}
-          names={['Joy Yeh', 'Jolene Chao', 'Rebecca Peng']}
-          times={['Mondays @ 7pm', 'Tuesdays @ 7pm', 'Mondays @ 8pm']}
-          locations={['Union', 'Orange Tree', 'Quarters Sterling']}
-        >
-        </SmallGroupPanel>
-        <SmallGroupPanel
-          type={'pink-panel'}
-          pictures={[img7, img8, img9]}
-          title={'Upper Guys'}
-          names={['George Huang', 'Brian Chiu', 'Jerry Yuen']}
-          times={['Mondays @ 7pm', 'Tuesdays @ 7pm', 'Mondays @ 8pm']}
-          locations={['Orange Tree', 'Orange Tree', 'Orange Tree']}
-        >
-        </SmallGroupPanel>
-        <SmallGroupPanel
-          type={'blue-panel'}
-          pictures={[img10, img11, img12]}
-          title={'Upper Girls'}
-          names={['Monica Dang', 'Julia Zheng', 'Azelia Lau']}
-          times={['Mondays @ 7pm', 'Tuesdays @ 7pm', 'Mondays @ 8pm']}
-          locations={['Orange Tree', 'Orange Tree', 'Orange Tree']}
-        >
-        </SmallGroupPanel>
+        <div id={'sg-panels'}>
+          <SmallGroupPanel
+            type={'pink-panel'}
+            pictures={[img1, img2, img3]}
+            title={'Freshman Guys'}
+            names={['Kevin Chen', 'Mark Cheng', 'Austin Li']}
+            times={['Mondays @ 7pm', 'Tuesdays @ 7pm', 'Mondays @ 8pm']}
+            locations={['Orange Tree', 'Jester West Lobby', 'J2']}
+          >
+          </SmallGroupPanel>
+          <SmallGroupPanel
+            type={'blue-panel'}
+            pictures={[img4, img5, img6]}
+            title={'Freshman Girls'}
+            names={['Joy Yeh', 'Jolene Chao', 'Rebecca Peng']}
+            times={['Mondays @ 7pm', 'Tuesdays @ 7pm', 'Mondays @ 8pm']}
+            locations={['Union', 'Orange Tree', 'Quarters Sterling']}
+          >
+          </SmallGroupPanel>
+          <SmallGroupPanel
+            type={'pink-panel'}
+            pictures={[img7, img8, img9]}
+            title={'Upper Guys'}
+            names={['George Huang', 'Brian Chiu', 'Jerry Yuen']}
+            times={['Mondays @ 7pm', 'Tuesdays @ 7pm', 'Mondays @ 8pm']}
+            locations={['Orange Tree', 'Orange Tree', 'Orange Tree']}
+          >
+          </SmallGroupPanel>
+          <SmallGroupPanel
+            type={'blue-panel'}
+            pictures={[img10, img11, img12]}
+            title={'Upper Girls'}
+            names={['Monica Dang', 'Julia Zheng', 'Azelia Lau']}
+            times={['Mondays @ 7pm', 'Tuesdays @ 7pm', 'Mondays @ 8pm']}
+            locations={['Orange Tree', 'Orange Tree', 'Orange Tree']}
+          >
+          </SmallGroupPanel>
+        </div>
         <div className={'bottom-section'}>
           <div id={'sg-signup-prompt'}>Interested? Sign up here!</div>
           <Form url={'https://forms.gle/1PwZbdnAmiuPiAh28'}></Form>

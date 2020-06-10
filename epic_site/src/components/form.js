@@ -24,9 +24,11 @@ const Form = props => {
   return(
     <Fragment>
       <div className={'form-container'}>
-        <form action={'action'} method={'post'}>
-
-        </form>
+        <iframe
+          id={'sg-contact-form'}
+          src="https://docs.google.com/forms/d/e/1FAIpQLScOzl7aFjWNVftl81feGwLqT16gSxmaPVElCEupDRPQAKHveQ/viewform?embedded=true"
+          width="640" height="2151" frameBorder="0" marginHeight="0" marginWidth="0">Loading…
+        </iframe>
       </div>
     </Fragment>
   );

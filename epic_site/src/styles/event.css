@@ -7,6 +7,7 @@
   z-index: 0;
   background-color: rgb(88, 109, 133);
   height: 70%;
+  overflow: hidden;
 }
 
 .event-header img {
@@ -38,6 +39,7 @@
   z-index: 0;
   background-color: rgb(88, 109, 133);
   font-family: 'Libre Franklin';
+  overflow: hidden;
 }
 
 #tagline{

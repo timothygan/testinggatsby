@@ -23,7 +23,7 @@ class HomeSection3 extends Component{
                       <div className="text-box">
                         <h3>It's never too late to join a small group!</h3>
                       </div>
-                      <Link to={'/small-groups'}>
+                      <Link to={'/small-group'}>
                           <AnimatedButton
                             className="AnimatedButton"
                             background='rgba(0, 0, 0, .2)'
@@ -42,14 +42,16 @@ class HomeSection3 extends Component{
                       <div className="text-box">
                         <h3>Come meet people at large group!</h3>
                       </div>
-                      <AnimatedButton
-                        className="AnimatedButton"
-                        background='rgba(0, 0, 0, .2)'
-                        hoverBackground='white'
-                        hoverTextColor='rgba(255, 120, 100)'
-                        width='25%'>
-                        Learn More
-                      </AnimatedButton>
+                      <Link to={'/large-group'}>
+                        <AnimatedButton
+                          className="AnimatedButton"
+                          background='rgba(0, 0, 0, .2)'
+                          hoverBackground='white'
+                          hoverTextColor='rgba(255, 120, 100)'
+                          width='25%'>
+                          Learn More
+                        </AnimatedButton>
+                      </Link>
                     </div>
                 </div>
             </Fragment>

@@ -68,17 +68,17 @@ class Header extends Component{
                     </div>
                     <div id="sidenav" >
                       <a href="/">Home</a>
-                      <a href="#">About</a>
-                      <a href="#">Calendar</a>
-                      <a href="#">Large Group</a>
+                      <a href="/about">About</a>
+                      <a href="/calendar">Calendar</a>
+                      <a href="/large-group">Large Group</a>
                       <a href="/small-group">Small Groups</a>
-                      <a href="#">Church Rides</a>
-                      <a href="#">Go Team</a>
-                      <a href="#">Summer Missions</a>
-                      <a href="#">Blog</a>
-                      <a href="#">Exploring Faith</a>
-                      <a href="#">Contact Us</a>
-                      <a href="#">Merch Shop</a>
+                      <a href="/church-rides">Church Rides</a>
+                      <a href="/go-team">Go Team</a>
+                      <a href="/summer-missions">Summer Missions</a>
+                      <a href="/blog">Blog</a>
+                      <a href="/exploring-faith">Exploring Faith</a>
+                      <a href="/contact-us">Contact Us</a>
+                      <a href="/merch-shop">Merch Shop</a>
                     </div>
                 </header>
 

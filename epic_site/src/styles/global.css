@@ -5,3 +5,8 @@ html,body
     padding: 0px;
     overflow-x: hidden;
 }
+
+.social-icon {
+  height: 5vw;
+  width: 5vw;
+}

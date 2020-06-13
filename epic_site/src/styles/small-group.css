@@ -119,16 +119,6 @@ panel-color:'rgb(238, 200, 199)';
   clip-path: circle(45% at center);
 }
 
-.bottom-section {
-  background-color: rgb(88, 109, 133);
-  display: flex;
-  width: 100%;
-  flex-direction: row;
-  align-content: center;
-  justify-content: center;
-  padding: 5vw 0;
-}
-
 #sg-signup-prompt {
   font-family: "Libre Franklin";
   font-size: 5vw;

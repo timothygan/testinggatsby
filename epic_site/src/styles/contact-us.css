@@ -1,0 +1,28 @@
+#contact-bottom-section {
+  align-items: center;
+}
+
+#social-container {
+  display: flex;
+  flex-direction: column;
+  padding: 6vw;
+  justify-content: space-between;
+}
+
+#social-media {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding-bottom: 2vw;
+}
+
+#epic-email-container {
+  font-family: "Libre Franklin";
+  color: white;
+  font-size: 2vw;
+}
+
+#epic-email {
+  text-decoration: none;
+  color: white;
+}

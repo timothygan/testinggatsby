@@ -1,0 +1,19 @@
+#footer-container {
+  background-color: rgb(220, 159, 158);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 30px;
+  padding-top: 30px;
+}
+
+.horizontal-line {
+  width: 40%;
+  height: 5px;
+  background-color: white;
+}
+
+.social-icon {
+  height: 3vw;
+  width: 3vw;
+}

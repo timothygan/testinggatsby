@@ -9,4 +9,6 @@ html,body
 .social-icon {
   height: 5vw;
   width: 5vw;
+  vertical-align: bottom;
+  margin: 0;
 }

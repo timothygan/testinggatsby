@@ -3,7 +3,7 @@ import Header from '../components/header';
 import Footer from '../components/footer';
 import EventHeader from "../components/event-header";
 import EventDescription from "../components/event-description";
-import img from '../images/large-group.jpg';
+import img from '../images/large-group.jpeg';
 
 class LargeGroup extends Component{
   constructor(props){

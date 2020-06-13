@@ -3,7 +3,7 @@ import Header from '../components/header';
 import Footer from '../components/footer';
 import EventHeader from "../components/event-header";
 import EventDescription from "../components/event-description";
-import img from '../images/go-team.jpg';
+import img from '../images/go-team.jpeg';
 
 class GoTeam extends Component{
   constructor(props){

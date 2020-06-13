@@ -37,6 +37,8 @@
     position: absolute;
     top: 10%;
     left: 50%;
+    height: 60%;
+    width: 100%;
     transform: translate(-50%, 0%);
 }
 

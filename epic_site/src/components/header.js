@@ -71,7 +71,7 @@ class Header extends Component{
                       <a href="/about">About</a>
                       <a href="/calendar">Calendar</a>
                       <a href="/large-group">Large Group</a>
-                      <a href="/small-group">Small Groups</a>
+                      <a href="/small-group">Small Group</a>
                       <a href="/church-rides">Church Rides</a>
                       <a href="/go-team">Go Team</a>
                       <a href="/summer-missions">Summer Missions</a>

@@ -61,7 +61,7 @@
 
 .bold-words {
   font-weight: bold;
-  color: rgb(247, 200, 162);
+  color: rgb(238, 200, 199);
 }
 
 .who-we-are {
@@ -113,7 +113,7 @@
   display: inline-block;
   position: relative;
   width: 50%;
-  background-color: rgb(255, 134, 110);
+  background-color: rgb(220, 159, 158);
   z-index: 0;
 }
 .box img{
@@ -161,12 +161,12 @@
 }
 
 .label {
-  background-color: rgba(255, 134, 110, 0.7);
+  background-color: rgb(220, 159, 158);
   position: absolute;
   top: 10%;
   color: white;
-  padding-left: 10px;
-  padding-right: 10px;
+  padding: 10px;
+  height: 3.5vw;
 }
 
 /* Section 4 */

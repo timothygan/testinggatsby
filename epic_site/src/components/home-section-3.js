@@ -28,7 +28,7 @@ class HomeSection3 extends Component{
                             className="AnimatedButton"
                             background='rgba(0, 0, 0, .2)'
                             hoverBackground='white'
-                            hoverTextColor='rgba(255, 120, 100)'
+                            hoverTextColor='rgb(220, 159, 158)'
                             width='25%'>
                             Learn More
                           </AnimatedButton>
@@ -47,7 +47,7 @@ class HomeSection3 extends Component{
                           className="AnimatedButton"
                           background='rgba(0, 0, 0, .2)'
                           hoverBackground='white'
-                          hoverTextColor='rgba(255, 120, 100)'
+                          hoverTextColor='rgb(220, 159, 158)'
                           width='25%'>
                           Learn More
                         </AnimatedButton>

@@ -23,11 +23,11 @@ class ContactUs extends Component{
           <Form url={'https://forms.gle/1PwZbdnAmiuPiAh28'}></Form>
           <div id={'social-container'}>
           <div id={'social-media'}>
-            <a href={'https://www.facebook.com/groups/texasepic/'} target={'_blank'}>
-              <img className={'social-icon'} id={'fb'} src={fb}></img>
+            <a href={'https://www.facebook.com/groups/texasepic/'} target={'_blank'} rel="noopener noreferrer">
+              <img className={'social-icon'} id={'fb'} src={fb} alt={'facebook icon'}></img>
             </a>
-            <a href={'https://www.instagram.com/texasepic/'} target={'_blank'}>
-              <img className={'social-icon'} id={'insta'} src={insta}></img>
+            <a href={'https://www.instagram.com/texasepic/'} target={'_blank'} rel="noopener noreferrer">
+              <img className={'social-icon'} id={'insta'} src={insta} alt={'instagram icon'}></img>
             </a>
           </div>
           <div id={'epic-email-container'}>

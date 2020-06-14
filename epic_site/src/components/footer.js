@@ -15,11 +15,11 @@ class Footer extends Component{
             <Fragment>
                 <div id={'footer-container'}>
                   <div className={'horizontal-line'}></div>
-                  <a href={'https://www.facebook.com/groups/texasepic/'} target={'_blank'}>
-                    <img className={'social-icon'} id={'fb'} src={fb}></img>
+                  <a href={'https://www.facebook.com/groups/texasepic/'} target={'_blank'} rel="noopener noreferrer">
+                    <img className={'social-icon'} id={'fb'} src={fb} alt={'facebook icon'}></img>
                   </a>
-                  <a href={'https://www.instagram.com/texasepic/'} target={'_blank'}>
-                    <img className={'social-icon'} id={'insta'} src={insta}></img>
+                  <a href={'https://www.instagram.com/texasepic/'} target={'_blank'} rel="noopener noreferrer">
+                    <img className={'social-icon'} id={'insta'} src={insta} alt={'instagram icon'}></img>
                   </a>
                   <div className={'horizontal-line'}></div>
                 </div>

@@ -1,0 +1,22 @@
+#calendar-title {
+  position: relative;
+  width: 44%;
+  height: 8vw;
+  margin: 200px auto 70px;
+  background-color: rgb(220, 159, 158);
+  text-align: center;
+  line-height: 8vw;
+  box-shadow: 1vw 1vw rgb(251, 231, 230);
+}
+
+#calendar-body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 10px;
+  margin-bottom: 80px;
+}
+
+.fb-page {
+  margin: 50px;
+}

@@ -16,6 +16,7 @@ const EventMap = props => {
       <div className="event-map-container">
         <div className={'map'}>
           <iframe
+            title="Event Map"
             src={props.map_src}
             width="500" height="400" frameBorder="0" allowFullScreen="" aria-hidden="false"
             tabIndex="0"></iframe>

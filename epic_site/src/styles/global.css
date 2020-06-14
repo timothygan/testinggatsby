@@ -4,6 +4,7 @@ html,body
     margin: 0px;
     padding: 0px;
     overflow-x: hidden;
+    background-color: rgb(88, 109, 133);
 }
 
 .social-icon {

@@ -2,6 +2,7 @@
 
 .Banner {
     position: fixed;
+    top: 0;
     z-index: 5;
     width: 100vw;
     height: 8vw;
@@ -13,7 +14,6 @@
     transition: 0.4s;
     padding-left: 1%;
     padding-right: 1%;
-
 }
 
 .Banner img {
@@ -39,6 +39,7 @@
 
 .scrolled {
   position: fixed;
+  top: 0;
   z-index: 5;
   width: 100vw;
   height: 4vw;

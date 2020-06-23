@@ -1,4 +1,6 @@
 import React, { Component, Fragment } from 'react';
+import { graphql } from "gatsby"
+
 import Header from '../components/header';
 import Footer from '../components/footer';
 import EventHeader from "../components/event-header";
@@ -40,5 +42,6 @@ class ContactUs extends Component{
     )
   }
 }
+
 
 export default ContactUs;

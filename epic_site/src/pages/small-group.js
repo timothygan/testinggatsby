@@ -18,6 +18,7 @@ import img9 from '../images/jerry.jpg';
 import img10 from '../images/monica.jpg';
 import img11 from '../images/julia.jpg';
 import img12 from '../images/azelia.jpg';
+import {graphql} from "gatsby";
 
 class SmallGroup extends Component{
   constructor(props){
@@ -25,14 +26,32 @@ class SmallGroup extends Component{
   }
 
   render(){
+    const edgeList = this.props.data.allWordpressPost.edges;
+    console.log(edgeList);
+    let edge;
+    let tagline ='A group that is small in size but big in heart.';
+    let description = 'Small group is a place where you can study the Bible and live life alongside a tight-knit community of believers. We want to create an open, comfortable space where you can learn about God, grow closer to one another, and share in your joys and sorrows. Feel free to fill out the small group interest form at the bottom of this page to get connected!';
+    for(edge of edgeList) {
+      console.log(edge.node);
+      if(edge.node.title === 'tagline') {
+        tagline = edge.node.excerpt.substring(3, edge.node.excerpt.length - 5);
+      }
+      else if(edge.node.title === 'description') {
+        description = edge.node.excerpt.substring(3, edge.node.excerpt.length - 5);
+      }
+    }
+    console.log(tagline);
+    console.log(description);
+
     return(
       <Fragment>
         <Header/>
         <EventHeader title={'Small Group'} image={img}/>
         <EventDescription
-          tagline={'A group that is small in size but big in heart.'}
+          tagline={tagline}
           emphasis={'heart.'}
-          description={'Small group is a place where you can study the Bible and live life alongside a tight-knit community of believers. We want to create an open, comfortable space where you can learn about God, grow closer to one another, and share in your joys and sorrows. Feel free to fill out the small group interest form at the bottom of this page to get connected!'}>
+          description={description}
+        >
         </EventDescription>
         <div id={'sg-panels'}>
           <SmallGroupPanel
@@ -81,5 +100,20 @@ class SmallGroup extends Component{
     )
   }
 }
+
+export const pageQuery = graphql`
+  query {
+    allWordpressPost(filter: {categories: {elemMatch: {name: {eq: "Small Group"}}}}) {
+      edges {
+        node {
+          title
+          excerpt
+          categories {
+            name
+          }
+        }
+      }
+    }
+  }`
 
 export default SmallGroup;

@@ -43,7 +43,7 @@ module.exports = {
       resolve: "gatsby-source-wordpress",
       options: {
 
-        baseUrl: "timgan263413807.wordpress.com",
+        baseUrl: "texasepic.wordpress.com/",
         // The protocol. This can be http or https.
         protocol: "https",
 
@@ -59,7 +59,7 @@ module.exports = {
           // If two-factor authentication is enabled then you need to create an Application-Specific Password,
           // see https://en.support.wordpress.com/security/two-step-authentication/#application-specific-passwords
           wpcom_app_clientSecret: process.env.GATSBY_SECRET,
-          wpcom_app_clientId: "68987",
+          wpcom_app_clientId: "69515",
           wpcom_user: "timothygan@utexas.edu",
           wpcom_pass: process.env.GATSBY_PASSWORD,
       },

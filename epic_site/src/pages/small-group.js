@@ -27,19 +27,14 @@ class SmallGroup extends Component{
 
   render(){
     const content = "<div>" + this.props.data.allWordpressPage.edges[0].node.content + "</div>";
-    console.log(content);
 
     const parser = new DOMParser();
     const doc = parser.parseFromString(content, 'text/xml');
 
     const list = doc.getElementsByTagName('p');
     const tagline = list[0].innerHTML.replace(new RegExp('<strong>|<\\/strong>', 'g'), '');
-
     const description = list[1].innerHTML;
     const emphasis = doc.getElementsByTagName('strong')[0].innerHTML;
-
-    console.log(tagline);
-    console.log(description);
 
     return(
       <Fragment>

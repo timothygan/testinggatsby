@@ -26,20 +26,18 @@ class SmallGroup extends Component{
   }
 
   render(){
-    const edgeList = this.props.data.allWordpressPost.edges;
-    console.log(edgeList);
-    let edge;
-    let tagline ='A group that is small in size but big in heart.';
-    let description = 'Small group is a place where you can study the Bible and live life alongside a tight-knit community of believers. We want to create an open, comfortable space where you can learn about God, grow closer to one another, and share in your joys and sorrows. Feel free to fill out the small group interest form at the bottom of this page to get connected!';
-    for(edge of edgeList) {
-      console.log(edge.node);
-      if(edge.node.title === 'tagline') {
-        tagline = edge.node.excerpt.substring(3, edge.node.excerpt.length - 5);
-      }
-      else if(edge.node.title === 'description') {
-        description = edge.node.excerpt.substring(3, edge.node.excerpt.length - 5);
-      }
-    }
+    const content = "<div>" + this.props.data.allWordpressPage.edges[0].node.content + "</div>";
+    console.log(content);
+
+    const parser = new DOMParser();
+    const doc = parser.parseFromString(content, 'text/xml');
+
+    const list = doc.getElementsByTagName('p');
+    const tagline = list[0].innerHTML.replace(new RegExp('<strong>|<\\/strong>', 'g'), '');
+
+    const description = list[1].innerHTML;
+    const emphasis = doc.getElementsByTagName('strong')[0].innerHTML;
+
     console.log(tagline);
     console.log(description);
 
@@ -49,7 +47,7 @@ class SmallGroup extends Component{
         <EventHeader title={'Small Group'} image={img}/>
         <EventDescription
           tagline={tagline}
-          emphasis={'heart.'}
+          emphasis={emphasis}
           description={description}
         >
         </EventDescription>
@@ -103,17 +101,13 @@ class SmallGroup extends Component{
 
 export const pageQuery = graphql`
   query {
-    allWordpressPost(filter: {categories: {elemMatch: {name: {eq: "Small Group"}}}}) {
+    allWordpressPage(filter: {title: {eq: "Small Group"}}) {
       edges {
         node {
-          title
-          excerpt
-          categories {
-            name
-          }
+          content
         }
       }
-    }
+      }
   }`
 
 export default SmallGroup;

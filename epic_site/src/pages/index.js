@@ -7,9 +7,6 @@ import HomeSection3 from "../components/home-section-3";
 import HomeSection4 from "../components/home-section-4";
 
 class App extends Component{
-    constructor(props){
-        super(props);
-    }
 
     render(){
         return(

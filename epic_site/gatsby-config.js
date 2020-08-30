@@ -5,7 +5,7 @@ require("dotenv").config({
 module.exports = {
   siteMetadata: {
     title: `Texas Epic Movement`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
+    description: `Texas Epic Movement is a caring community that wants everyone to know someone who tuly follows Christ.`,
     author: `@dianashao, @timothygan`,
   },
   plugins: [
@@ -81,6 +81,14 @@ module.exports = {
 
 
       },
+    },
+    {
+    resolve: "gatsby-source-google-sheets",
+      options: {
+          spreadsheetId: process.env.GOOGLE_SHEETS_DOC_ID,
+          worksheetTitle: "Sheet 1",
+          credentials: require('./client-secret.json')
+      }
     },
     {
       resolve: `gatsby-plugin-prefetch-google-fonts`,

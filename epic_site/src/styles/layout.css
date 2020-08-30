@@ -214,66 +214,7 @@ img {
   padding: 0;
   margin: 0 0 1.45rem;
 }
-h1 {
-  padding: 0;
-  margin: 0 0 1.45rem;
-  color: white;
-  font-family: "Libre Franklin";
-  font-weight: normal;
-  text-rendering: optimizeLegibility;
-  font-size: 4vw;
-}
-h2 {
-  padding: 0;
-  margin: 0 0 1.45rem;
-  color: inherit;
-  font-family: "Libre Franklin";
-  font-weight: bold;
-  text-rendering: optimizeLegibility;
-  font-size: 1.62671rem;
-  line-height: 1.1;
-}
-h3 {
-  padding: 0;
-  margin: 0 0 1.45rem;
-  color: inherit;
-  font-family: "Libre Franklin";
-  font-weight: normal;
-  font-size: 3vw;
-  text-rendering: optimizeLegibility;
-  line-height: 1.1;
-}
-h4 {
-  padding: 0;
-  margin: 0 0 1.45rem;
-  font-family: "Libre Franklin";
-  font-weight: 300;
-  font-size: 2vw;
-  color: inherit;
-  text-rendering: optimizeLegibility;
-  line-height: 1.1;
-}
-h5 {
-  padding: 0;
-  margin: 0 0 1.45rem;
-  color: inherit;
-  font-family: "Libre Franklin";
-  font-weight: bold;
-  text-rendering: optimizeLegibility;
-  font-size: 0.85028rem;
-  line-height: 1.1;
-}
-h6 {
-  padding: 0;
-  margin: 0 0 1.45rem;
-  color: inherit;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-  font-weight: bold;
-  text-rendering: optimizeLegibility;
-  font-size: 0.78405rem;
-  line-height: 1.1;
-}
+
 hgroup {
   padding: 0;
   margin: 0 0 1.45rem;

@@ -5,9 +5,6 @@ import Footer from '../components/footer';
 import '../styles/calendar.css';
 
 class Calendar extends Component{
-  constructor(props){
-    super(props);
-  }
 
   render(){
     return(
@@ -17,7 +14,7 @@ class Calendar extends Component{
                   nonce="vmb7BmlZ"></script>
         </Helmet>
         <Header/>
-        <div id={'calendar-title'}>
+        <div className={'standalone-title'} id={'calendar-title'}>
           <h1>Calendar</h1>
         </div>
         <div id={'calendar-body'}>

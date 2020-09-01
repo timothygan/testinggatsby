@@ -22,7 +22,7 @@ class ContactUs extends Component{
         <Header/>
         <EventHeader title={'Contact Us'} image={img}/>
         <div className={'bottom-section'} id={'contact-bottom-section'}>
-          <Form url={'https://forms.gle/1PwZbdnAmiuPiAh28'}></Form>
+          <Form url={'https://docs.google.com/forms/d/e/1FAIpQLScZ2g5a4iP_Ql9EcNC2FetgmKRzJaRSl4RpsWh0SOqut2V0fg/viewform?fbclid=IwAR3FeB7WCUUW5lur--Tc6HsDpq2L747jUrGbz1z2Eq-kbzvSIF6hjOau2ZA'}></Form>
           <div id={'social-container'}>
           <div id={'social-media'}>
             <a href={'https://www.facebook.com/groups/texasepic/'} target={'_blank'} rel="noopener noreferrer">

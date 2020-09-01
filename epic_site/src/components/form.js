@@ -15,7 +15,7 @@ const Form = props => {
       <div className={'form-container'}>
         <iframe
           id={'sg-contact-form'}
-          src="https://docs.google.com/forms/d/e/1FAIpQLScOzl7aFjWNVftl81feGwLqT16gSxmaPVElCEupDRPQAKHveQ/viewform?embedded=true"
+          src={props.url}
           width="640" height="2151" frameBorder="0" marginHeight="0" marginWidth="0">Loading…
         </iframe>
       </div>

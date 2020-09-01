@@ -75,11 +75,21 @@ class Header extends Component{
                       <a href="/church-rides">Church Rides</a>
                       <a href="/go-team">Go Team</a>
                       <a href="/prayer-wall">Prayer Wall</a>
-                      <a href="/summer-missions">Summer Missions</a>
-                      <a href="/blog">Blog</a>
-                      <a href="/exploring-faith">Exploring Faith</a>
+
+                      {/*Eventually we'd want to make an actual summer missions page
+                        Include past students' experiences/pics */}
+                      <a href="https://www.cru.org/epicmovement/summer-missions-2/" target="_blank" >Summer Missions</a>
                       <a href="/contact-us">Contact Us</a>
+                      {/*
+                      // Blog ideas: Members/alumni guest blogs about Epic experience
+                      <a href="/blog">Blog</a>
+                      
+                      // Link to DBS signup? DBS pics
+                      <a href="/exploring-faith">Exploring Faith</a>
+                      
+                      // Merch shoppppppp maybe we can just start out with a google form to buy stuff
                       <a href="/merch-shop">Merch Shop</a>
+                      */}
                     </div>
                 </header>
 

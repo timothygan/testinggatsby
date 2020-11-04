@@ -86,7 +86,7 @@ module.exports = {
     resolve: "gatsby-source-google-sheets",
       options: {
         spreadsheetId: '1Ds0dNyEowHycLpTayKQ_hRsM2hQ7G4m-QzPVNIracAU',
-        worksheetTitle: 'Sheet 1',         
+        worksheetTitle: 'Event Pages',         
         credentials: require('./secret.json')   
       }
     },

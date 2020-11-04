@@ -7,7 +7,7 @@ import '../styles/contact-us.css';
 
 import PrayerCard from '../components/prayer-card';
 
-class PrayerWall extends Component{
+/*class PrayerWall extends Component{
 
     render(){
       const r1 = this.props.data.allGoogleSheetSheet1Row.edges[0].node.prayerRequest;
@@ -34,7 +34,7 @@ class PrayerWall extends Component{
 
 export const pageQuery = graphql`
   query {
-    allGoogleSheetSheet1Row {
+    allGoogleSheetPrayerRequestsRow {
       edges {
         node {
           prayerRequest
@@ -43,4 +43,4 @@ export const pageQuery = graphql`
     }
   }`
 
-export default PrayerWall;
+export default PrayerWall;*/
